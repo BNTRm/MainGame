@@ -3,8 +3,6 @@
 
 #include "VoxmanCharacter.h"
 
-#include "InventoryComponent.h"
-
 // Sets default values
 AVoxmanCharacter::AVoxmanCharacter()
 {
