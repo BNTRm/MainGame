@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/GameState.h"
-#include "VoxGameState.generated.h"
+#include "GameFramework/GameMode.h"
+#include "MyGameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MAINGAME_API AVoxGameState : public AGameState
+class MAINGAME_API AMyGameMode : public AGameMode
 {
 	GENERATED_BODY()
 
@@ -32,6 +32,5 @@ public:
 
 	UFUNCTION(BlueprintPure, Category="Math")
 	float precision(float Num, int32 Decimals = 3) const;
-	
 	
 };
