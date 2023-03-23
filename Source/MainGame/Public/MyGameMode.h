@@ -17,7 +17,7 @@ class MAINGAME_API AMyGameMode : public AGameMode
 protected:
 	
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category="World")
-	int32 BlockSize = 64;
+	int32 BlockSize = 16;
 
 	UFUNCTION(BlueprintPure, Category="World")
 	int32 convertWorldToGameCoord(int32 WorldCoord) const { return WorldCoord / BlockSize; }
